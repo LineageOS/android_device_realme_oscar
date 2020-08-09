@@ -11,5 +11,9 @@ $(call inherit-product, device/realme/sm6375-common/sm6375.mk)
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Overlays
+PRODUCT_PACKAGES += \
+    OPlusFrameworksResTarget
+
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/realme/oscar/oscar-vendor.mk)
