@@ -2,3 +2,6 @@
 ro.vendor.display.svi=1
 vendor.display.svi.config=1
 vendor.display.svi.config_path=/vendor/etc/SVIConfig_4095.xml
+
+# USB
+vendor.usb.product_string=Realme 9 Pro 5G
