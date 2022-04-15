@@ -1,3 +1,6 @@
+# Bluetooth
+bluetooth.device.default_name=Realme 9 Pro 5G
+
 # Display
 ro.vendor.display.svi=1
 vendor.display.svi.config=1
