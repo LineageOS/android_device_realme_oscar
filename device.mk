@@ -13,7 +13,8 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Overlays
 PRODUCT_PACKAGES += \
-    OPlusFrameworksResTarget
+    OPlusFrameworksResTarget \
+    OPlusSystemUIResTarget
 
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/realme/oscar/oscar-vendor.mk)
