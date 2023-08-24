@@ -27,5 +27,9 @@ PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSystemUIResTarget
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/realme/oscar/oscar-vendor.mk)
