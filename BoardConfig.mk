@@ -9,5 +9,8 @@
 
 DEVICE_PATH := device/realme/oscar
 
+# Kernel
+TARGET_KERNEL_CONFIG := vendor/holi-qgki_defconfig
+
 # Inherit the proprietary files
 -include vendor/realme/oscar/BoardConfigVendor.mk
