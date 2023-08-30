@@ -1,0 +1,1 @@
+require board=holi|RE54CBL1
