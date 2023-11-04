@@ -1101,6 +1101,12 @@ vendor/firmware/evass.b19
 vendor/firmware/evass.mbn
 vendor/firmware/evass.mdt
 
+# ESE - from RMX3472_11.C.14_1140_202304031903 build
+odm/lib/ese_client.so|dbe7948c2bd9cbe17d9a75d822163e31b8b1d70a
+odm/lib/ese_spi_nxp_nq330.so|e43afa76a938549aad79aa4f6afbbb83ce039ac5
+odm/lib64/ese_client.so|d4ca7cc9c7fe9eadd9ee5059ed1fd68132b5dc49
+odm/lib64/ese_spi_nxp_nq330.so|4906b8b7df60dd70c9d4bd8f16bbbc581d078408
+
 # Fingerprint
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service
 odm/bin/init.oplus.fingerprints.sh
@@ -1165,6 +1171,14 @@ vendor/firmware/ipa_fws.b03
 vendor/firmware/ipa_fws.b04
 vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
+
+# NFC - from RMX3472_11.C.14_1140_202304031903 build
+odm/etc/nfc/libnfc-nci.conf_21708:vendor/etc/libnfc-nci.conf|e68402caab40dcce235af2e6fcb6588910f42b16
+odm/etc/nfc/libnfc-nxp.conf_21708:vendor/etc/libnfc-nxp.conf|845a1d40cb41628f94bc7cfe8f8372e9260fc590
+odm/etc/nfc/libnfc-nxp_RF.conf_21708:vendor/libnfc-nxp_RF.conf|1d836d28d847529f771cab3991a7b5ae786bfc80
+odm/etc/nfc/nfc_conf_ref|ef84d028cf330f1e9560e966b4decde72f5be0dd
+odm/etc/nfc/nfc_fw_ref|8322a18e1f979ef266653b64f5c9916efe4a4d9e
+odm/lib/libpn557_fw.so:vendor/lib/libpn557_fw.so|5fd4d17960d258563557d47d70c4d9d11a79fd15
 
 # Sensors
 odm/etc/sensor.cfg
