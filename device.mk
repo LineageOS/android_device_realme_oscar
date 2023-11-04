@@ -45,6 +45,7 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
+    init.device.rc \
     init.oplus.hw.rc \
     init.oplus.hw.rc.recovery
 

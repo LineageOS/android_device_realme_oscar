@@ -4,6 +4,13 @@
 //
 
 prebuilt_etc {
+    name: "init.device.rc",
+    src: "etc/init.device.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "init.oplus.hw.rc",
     src: "etc/init.oplus.hw.rc",
     sub_dir: "init",

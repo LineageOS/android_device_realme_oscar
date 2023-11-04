@@ -9,3 +9,4 @@ on property:ro.boot.prjname=21707
 
 on property:ro.boot.prjname=21708
     setprop ro.boot.hardware.revision "EU"
+    setprop ro.boot.product.hardware.sku "nfc"
