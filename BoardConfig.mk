@@ -9,5 +9,8 @@
 
 DEVICE_PATH := device/realme/oscar
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_oscar
+
 # Inherit the proprietary files
 -include vendor/realme/oscar/BoardConfigVendor.mk
