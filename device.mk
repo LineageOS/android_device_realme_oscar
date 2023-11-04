@@ -27,6 +27,11 @@ PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSystemUIResTarget
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    init.oplus.hw.rc \
+    init.oplus.hw.rc.recovery
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
