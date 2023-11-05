@@ -1,4 +1,4 @@
-# Device proprietary files - from RMX3471_11.C.19_1190_202309231204 build, unless pinned
+# Device proprietary files - from RMX3471_11.C.20_1200_202310171010 build, unless pinned
 
 # Audio ACDB
 odm/etc/acdbdata/MOS/Audio_Parameter_Version.txt
@@ -972,7 +972,7 @@ vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
 vendor/lib64/hw/camera.qcom.so
-vendor/lib64/hw/com.qti.chi.override.so|c1ca4d0aa5375f78d2ddcda92da31aa7abbdbfd2
+vendor/lib64/hw/com.qti.chi.override.so|978310c7ff16442ee928a3ef6d001ac633fd6e3e
 vendor/lib64/camera.device@1.0-impl.so
 vendor/lib64/camera.device@3.2-impl.so
 vendor/lib64/camera.device@3.3-impl.so
@@ -1101,7 +1101,7 @@ vendor/firmware/evass.b19
 vendor/firmware/evass.mbn
 vendor/firmware/evass.mdt
 
-# ESE - from RMX3472_11.C.14_1140_202304031903 build
+# ESE - from RMX3472_11.C.20_1200_202310171717 build
 odm/lib/ese_client.so|dbe7948c2bd9cbe17d9a75d822163e31b8b1d70a
 odm/lib/ese_spi_nxp_nq330.so|e43afa76a938549aad79aa4f6afbbb83ce039ac5
 odm/lib64/ese_client.so|d4ca7cc9c7fe9eadd9ee5059ed1fd68132b5dc49
@@ -1172,7 +1172,7 @@ vendor/firmware/ipa_fws.b04
 vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
 
-# NFC - from RMX3472_11.C.14_1140_202304031903 build
+# NFC - from RMX3472_11.C.20_1200_202310171717 build
 odm/etc/nfc/libnfc-nci.conf_21708:vendor/etc/libnfc-nci.conf|e68402caab40dcce235af2e6fcb6588910f42b16
 odm/etc/nfc/libnfc-nxp.conf_21708:vendor/etc/libnfc-nxp.conf|845a1d40cb41628f94bc7cfe8f8372e9260fc590
 odm/etc/nfc/libnfc-nxp_RF.conf_21708:vendor/libnfc-nxp_RF.conf|1d836d28d847529f771cab3991a7b5ae786bfc80
