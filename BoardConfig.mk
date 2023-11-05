@@ -16,5 +16,11 @@ ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/manifest_nfc.xml
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_oscar
 
+# Touch
+SOONG_CONFIG_NAMESPACES += OPLUS_LINEAGE_TOUCH_HAL
+SOONG_CONFIG_OPLUS_LINEAGE_TOUCH_HAL := INCLUDE_DIR
+SOONG_CONFIG_OPLUS_LINEAGE_TOUCH_HAL_INCLUDE_DIR := \
+    $(DEVICE_PATH)/touch/include
+
 # Inherit the proprietary files
 -include vendor/realme/oscar/BoardConfigVendor.mk
