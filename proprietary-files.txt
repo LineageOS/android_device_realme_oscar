@@ -1,4 +1,4 @@
-# Device proprietary files - from RMX3471_11.C.20_1200_202310171010 build, unless pinned
+# Device proprietary files - from RMX3471_11.C.21_1210_202311281824 build, unless pinned
 
 # Audio ACDB
 odm/etc/acdbdata/MOS/Audio_Parameter_Version.txt
@@ -972,7 +972,7 @@ vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
 vendor/lib64/hw/camera.qcom.so
-vendor/lib64/hw/com.qti.chi.override.so|978310c7ff16442ee928a3ef6d001ac633fd6e3e
+vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/camera.device@1.0-impl.so
 vendor/lib64/camera.device@3.2-impl.so
 vendor/lib64/camera.device@3.3-impl.so
