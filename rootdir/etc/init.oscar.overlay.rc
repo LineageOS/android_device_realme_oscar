@@ -1,0 +1,25 @@
+#
+# Copyright (C) 2024 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+on init && property:ro.product.product.model=RMX3471
+    mount overlay overlay /odm/etc ro lowerdir=/odm/overlayfs/in/etc:/odm/etc
+    mount overlay overlay /odm/lib64 ro lowerdir=/odm/overlayfs/in/lib64:/odm/lib64
+    mount overlay overlay /vendor/lib64 ro lowerdir=/vendor/overlayfs/in/lib64:vendor/lib64
+
+on init && property:ro.product.product.model=RMX3472
+    mount overlay overlay /odm/etc ro lowerdir=/odm/overlayfs/in/etc:/odm/etc
+    mount overlay overlay /odm/lib64 ro lowerdir=/odm/overlayfs/in/lib64:/odm/lib64
+    mount overlay overlay /vendor/lib64 ro lowerdir=/vendor/overlayfs/in/lib64:vendor/lib64
+
+on init && property:ro.product.product.model=RMX3474
+    mount overlay overlay /odm/etc ro lowerdir=/odm/overlayfs/ru/etc:/odm/etc
+    mount overlay overlay /odm/lib64 ro lowerdir=/odm/overlayfs/ru/lib64:/odm/lib64
+    mount overlay overlay /vendor/lib64 ro lowerdir=/vendor/overlayfs/ru/lib64:vendor/lib64
+
+on init && property:ro.product.product.model=RMX3478
+    mount overlay overlay /odm/etc ro lowerdir=/odm/overlayfs/cn/etc:/odm/etc
+    mount overlay overlay /odm/lib64 ro lowerdir=/odm/overlayfs/cn/lib64:/odm/lib64
+    mount overlay overlay /vendor/lib64 ro lowerdir=/vendor/overlayfs/cn/lib64:vendor/lib64

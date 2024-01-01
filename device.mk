@@ -49,7 +49,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.device.rc \
     init.oplus.hw.rc \
-    init.oplus.hw.rc.recovery
+    init.oplus.hw.rc.recovery \
+    init.oscar.overlay.rc
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

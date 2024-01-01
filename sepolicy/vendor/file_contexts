@@ -1,0 +1,4 @@
+# OverlayFS
+/vendor/overlayfs(/.*)?                    u:object_r:vendor_configs_file:s0
+/odm/overlayfs(/.*)?                       u:object_r:vendor_configs_file:s0
+/odm/overlayfs/[a-z]+/lib64(/.*)?          u:object_r:vendor_hal_file:s0

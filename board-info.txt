@@ -1,1 +1,1 @@
-require board=holi|RE54CBL1
+require board=holi|RE54CBL1|RE547D

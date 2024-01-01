@@ -17,3 +17,10 @@ prebuilt_etc {
     device_specific: true,
     recovery_available: true,
 }
+
+prebuilt_etc {
+    name: "init.oscar.overlay.rc",
+    src: "etc/init.oscar.overlay.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
