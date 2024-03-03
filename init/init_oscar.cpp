@@ -9,10 +9,13 @@
 #define _REALLY_INCLUDE_SYS__SYSTEM_PROPERTIES_H_
 #include <sys/_system_properties.h>
 
+#include <fstream>
 #include <string>
 #include <vector>
 
 using android::base::GetProperty;
+
+#define PROC_NFC_CHIPSET "/proc/oplus_nfc/chipset"
 
 /*
  * SetProperty does not allow updating read only properties and as a result
@@ -38,7 +41,7 @@ const std::vector<std::string> ro_props_default_source_order = {
  * than once should be set in a typical init script (e.g. init.oplus.hw.rc)
  * after the original property has been set.
  */
-void vendor_load_properties() {
+void set_device_properties() {
     auto prjname = GetProperty("ro.boot.prjname", "");
     for (const auto& source : ro_props_default_source_order) {
         if (prjname == "21707") { // IN
@@ -52,4 +55,26 @@ void vendor_load_properties() {
             property_override("ro.product." + source + "model", "RMX3478");
         }
     }
+}
+
+/*
+ * Setup NFC sku based on /proc/oplus_nfc/chipset 
+ */
+void check_nfc_support()
+{
+    std::ifstream procfile(PROC_NFC_CHIPSET);
+    std::string chipset;
+
+    getline(procfile, chipset);
+
+    LOG(INFO) << "oplus_nfc : chipset " << chipset;
+
+    if (chipset != "NULL") {
+        property_override("ro.boot.product.hardware.sku", "nfc");
+    }
+}
+
+void vendor_load_properties() {
+    set_device_properties();
+    check_nfc_support();
 }
