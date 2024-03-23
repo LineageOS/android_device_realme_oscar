@@ -1167,7 +1167,7 @@ odm/etc/nfc/libnfc-nxp.conf_21708:vendor/etc/libnfc-nxp.conf|845a1d40cb41628f94b
 odm/etc/nfc/libnfc-nxp_RF.conf_21708:vendor/libnfc-nxp_RF.conf|1d836d28d847529f771cab3991a7b5ae786bfc80
 odm/etc/nfc/nfc_conf_ref|60498e1327a2246f7a4606589184cd0ce81fbdae
 odm/etc/nfc/nfc_fw_ref|332ad86904ef6f62a9a39fc29d1b60720460bb5d
-odm/lib/libpn557_fw.so:vendor/lib/libpn557_fw.so|5fd4d17960d258563557d47d70c4d9d11a79fd15
+odm/lib/libpn557_fw.so:vendor/lib64/libpn557_fw.so|5fd4d17960d258563557d47d70c4d9d11a79fd15
 
 # Sensors
 odm/etc/sensor.cfg
