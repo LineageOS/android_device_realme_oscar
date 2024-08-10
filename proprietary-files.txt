@@ -454,7 +454,6 @@ odm/etc/camera/gesture/tt_hand_det_v11.0.model
 odm/etc/camera/gesture/tt_hand_gesture_v11.1.model
 odm/etc/camera/gesture/tt_hand_kp_v6.0.model
 odm/etc/camera/gesture/tt_hand_lr_v3.0.model
-odm/etc/camera/license_release_fdc.lic
 odm/etc/camera/megvii/cache
 odm/etc/camera/megvii/siq_ocl_cache
 odm/etc/camera/megvii/superiq_model
