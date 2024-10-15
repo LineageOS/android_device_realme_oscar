@@ -15,7 +15,7 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --replace-needed "libstdc++.so" "libstdc++_vendor.so" "${2}"
             ;;
-        vendor/overlayfs/in/lib64/hw/com.qti.chi.override.so)
+        vendor/lib64/hw/com.qti.chi.override.so)
             [ "$2" = "" ] && return 0
             grep -q libcamera_metadata_shim.so "${2}" || "${PATCHELF}" --add-needed libcamera_metadata_shim.so "${2}"
             ;;
