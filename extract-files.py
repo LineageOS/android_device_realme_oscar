@@ -43,7 +43,6 @@ module = ExtractUtilsModule(
     namespace_imports=namespace_imports,
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,
-    check_elf=True,
     add_firmware_proprietary_file=True,
 )
 
