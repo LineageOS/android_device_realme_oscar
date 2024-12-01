@@ -24,6 +24,13 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Init
+PRODUCT_PACKAGES += \
+    init.device.rc \
+    init.oplus.hw.rc \
+    init.oplus.hw.rc.recovery \
+    init.oscar.overlay.rc
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp \
@@ -43,13 +50,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSystemUIResTarget
-
-# Ramdisk
-PRODUCT_PACKAGES += \
-    init.device.rc \
-    init.oplus.hw.rc \
-    init.oplus.hw.rc.recovery \
-    init.oscar.overlay.rc
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
