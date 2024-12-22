@@ -1,4 +1,4 @@
-# Device proprietary files - from RMX3471_14.0.0.900(EX01) build, unless pinned
+# Device proprietary files - from RMX3471_14.0.0.1100(EX01) build, unless pinned
 
 # Audio ACDB
 odm/etc/acdbdata/MOS/Audio_Parameter_Version.txt
