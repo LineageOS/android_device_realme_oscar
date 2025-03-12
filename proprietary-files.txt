@@ -1007,27 +1007,27 @@ vendor/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 # Camera (IN/EU)
-odm/etc/camera/config/camera_unit_config:odm/overlayfs/in/etc/camera/config/camera_unit_config
-odm/etc/camera/config/oplus_camera_algo_switch_config:odm/overlayfs/in/etc/camera/config/oplus_camera_algo_switch_config
-odm/etc/camera/config/oplus_camera_aps_config:odm/overlayfs/in/etc/camera/config/oplus_camera_aps_config
-odm/etc/camera/config/oplus_camera_config:odm/overlayfs/in/etc/camera/config/oplus_camera_config
-odm/etc/camera/config/ov08d10:odm/overlayfs/in/etc/camera/config/ov08d10
-odm/etc/camera/config/ov64b:odm/overlayfs/in/etc/camera/config/ov64b
-odm/etc/camera/CameraHWConfiguration.config:odm/overlayfs/in/etc/camera/CameraHWConfiguration.config
-odm/etc/camera/dualcal_golden.bin:odm/overlayfs/in/etc/camera/dualcal_golden.bin
-odm/etc/camera/fb_default:odm/overlayfs/in/etc/camera/fb_default
-odm/etc/camera/fwk_config.json:odm/overlayfs/in/etc/camera/fwk_config.json
+odm/etc/camera/config/camera_unit_config:vendor/etc/overlayfs/in/camera/config/camera_unit_config
+odm/etc/camera/config/oplus_camera_algo_switch_config:vendor/etc/overlayfs/in/camera/config/oplus_camera_algo_switch_config
+odm/etc/camera/config/oplus_camera_aps_config:vendor/etc/overlayfs/in/camera/config/oplus_camera_aps_config
+odm/etc/camera/config/oplus_camera_config:vendor/etc/overlayfs/in/camera/config/oplus_camera_config
+odm/etc/camera/config/ov08d10:vendor/etc/overlayfs/in/camera/config/ov08d10
+odm/etc/camera/config/ov64b:vendor/etc/overlayfs/in/camera/config/ov64b
+odm/etc/camera/CameraHWConfiguration.config:vendor/etc/overlayfs/in/camera/CameraHWConfiguration.config
+odm/etc/camera/dualcal_golden.bin:vendor/etc/overlayfs/in/camera/dualcal_golden.bin
+odm/etc/camera/fb_default:vendor/etc/overlayfs/in/camera/fb_default
+odm/etc/camera/fwk_config.json:vendor/etc/overlayfs/in/camera/fwk_config.json
 
 # Camera (CN) - from RMX3478_14.0.0.700(CN01)
-odm/etc/camera/config/camera_unit_config:odm/overlayfs/cn/etc/camera/config/camera_unit_config|c84c6e178813b9b69821dc915ef0a82df81fdf27
-odm/etc/camera/config/oplus_camera_algo_switch_config:odm/overlayfs/cn/etc/camera/config/oplus_camera_algo_switch_config|f03ccf6fce5be088f274e87ea01fc755f1ac3820
-odm/etc/camera/config/oplus_camera_aps_config:odm/overlayfs/cn/etc/camera/config/oplus_camera_aps_config|215170f2237069673d766272c0237f20622c93e6
-odm/etc/camera/config/oplus_camera_config:odm/overlayfs/cn/etc/camera/config/oplus_camera_config|fa4ec380f1b86b0bff09e9337418e25ac4448545
-odm/etc/camera/config/s5kjn1:odm/overlayfs/cn/etc/camera/config/s5kjn1|973e201232cd2f33e9e34db78a5ff42148594eb0
-odm/etc/camera/CameraHWConfiguration.config:odm/overlayfs/cn/etc/camera/CameraHWConfiguration.config|84e8afcd2d01707526985749eecce32a9f26e042
-odm/etc/camera/dualcal_golden.bin:odm/overlayfs/cn/etc/camera/dualcal_golden.bin|f32e9090ab514cfdc3e8fc73201eea9d3e465e0a
-odm/etc/camera/fb_default:odm/overlayfs/cn/etc/camera/fb_default|bf18dd637274f4676e47e0bc2328eb64a39c7389
-odm/etc/camera/fwk_config.json:odm/overlayfs/cn/etc/camera/fwk_config.json|cb2582e6d42ef213255ac1906aa332a2723f24ac
+odm/etc/camera/config/camera_unit_config:vendor/etc/overlayfs/cn/camera/config/camera_unit_config|c84c6e178813b9b69821dc915ef0a82df81fdf27
+odm/etc/camera/config/oplus_camera_algo_switch_config:vendor/etc/overlayfs/cn/camera/config/oplus_camera_algo_switch_config|f03ccf6fce5be088f274e87ea01fc755f1ac3820
+odm/etc/camera/config/oplus_camera_aps_config:vendor/etc/overlayfs/cn/camera/config/oplus_camera_aps_config|215170f2237069673d766272c0237f20622c93e6
+odm/etc/camera/config/oplus_camera_config:vendor/etc/overlayfs/cn/camera/config/oplus_camera_config|fa4ec380f1b86b0bff09e9337418e25ac4448545
+odm/etc/camera/config/s5kjn1:vendor/etc/overlayfs/cn/camera/config/s5kjn1|973e201232cd2f33e9e34db78a5ff42148594eb0
+odm/etc/camera/CameraHWConfiguration.config:vendor/etc/overlayfs/cn/camera/CameraHWConfiguration.config|84e8afcd2d01707526985749eecce32a9f26e042
+odm/etc/camera/dualcal_golden.bin:vendor/etc/overlayfs/cn/camera/dualcal_golden.bin|f32e9090ab514cfdc3e8fc73201eea9d3e465e0a
+odm/etc/camera/fb_default:vendor/etc/overlayfs/cn/camera/fb_default|bf18dd637274f4676e47e0bc2328eb64a39c7389
+odm/etc/camera/fwk_config.json:vendor/etc/overlayfs/cn/camera/fwk_config.json|cb2582e6d42ef213255ac1906aa332a2723f24ac
 odm/lib64/camera/com.qti.sensor.gc02m1b.so|03cfc3211aaa8a80ad0d99d1ff165a013ea9eae3
 odm/lib64/camera/com.qti.sensor.s5kjn1.so|c3f645c67ada7da59b6ffb5f19a6010a8de9ab17
 odm/lib64/camera/com.qti.sensormodule.gc02m1b.bin|512930bb4bb35dc24f852abb89f2413cf0673324
@@ -1036,15 +1036,15 @@ odm/lib64/camera/com.qti.tuned.gc02m1b.bin|0961fc46f2fff2fcab6b1d6aa9d7c040c73a5
 odm/lib64/camera/com.qti.tuned.s5kjn1.bin|3bf457e80a7f8f2dbee2e88897392c4c834b21b0
 
 # Camera (RU) - from RMX3474_14.0.0.700(EX01)
-odm/etc/camera/config/camera_unit_config:odm/overlayfs/ru/etc/camera/config/camera_unit_config|8d6e0e9cfd0c198fa5e9d2dbbaaed8b8b1e0574d
-odm/etc/camera/config/oplus_camera_algo_switch_config:odm/overlayfs/ru/etc/camera/config/oplus_camera_algo_switch_config|f03ccf6fce5be088f274e87ea01fc755f1ac3820
-odm/etc/camera/config/oplus_camera_aps_config:odm/overlayfs/ru/etc/camera/config/oplus_camera_aps_config|723f73150c51b9d8c064aa84a09898c86c204920
-odm/etc/camera/config/oplus_camera_config:odm/overlayfs/ru/etc/camera/config/oplus_camera_config|58078082a40c4b7b335449660c423c3252d98c3a
-odm/etc/camera/config/s5kjn1:odm/overlayfs/ru/etc/camera/config/s5kjn1|87f80cfcefac34ec1c664dfc8338c66fb1424140
-odm/etc/camera/CameraHWConfiguration.config:odm/overlayfs/ru/etc/camera/CameraHWConfiguration.config|6164e3c0d967dc7de4c74a40b8ae407340587ea7
-odm/etc/camera/dualcal_golden.bin:odm/overlayfs/ru/etc/camera/dualcal_golden.bin|64e0985730fb0a77835c48977bb2087f9727a075
-odm/etc/camera/fb_default:odm/overlayfs/ru/etc/camera/fb_default|bf18dd637274f4676e47e0bc2328eb64a39c7389
-odm/etc/camera/fwk_config.json:odm/overlayfs/ru/etc/camera/fwk_config.json|3cd65231a18a712b27e211acb6cd3abc446b6aaf
+odm/etc/camera/config/camera_unit_config:vendor/etc/overlayfs/ru/camera/config/camera_unit_config|8d6e0e9cfd0c198fa5e9d2dbbaaed8b8b1e0574d
+odm/etc/camera/config/oplus_camera_algo_switch_config:vendor/etc/overlayfs/ru/camera/config/oplus_camera_algo_switch_config|f03ccf6fce5be088f274e87ea01fc755f1ac3820
+odm/etc/camera/config/oplus_camera_aps_config:vendor/etc/overlayfs/ru/camera/config/oplus_camera_aps_config|723f73150c51b9d8c064aa84a09898c86c204920
+odm/etc/camera/config/oplus_camera_config:vendor/etc/overlayfs/ru/camera/config/oplus_camera_config|58078082a40c4b7b335449660c423c3252d98c3a
+odm/etc/camera/config/s5kjn1:vendor/etc/overlayfs/ru/camera/config/s5kjn1|87f80cfcefac34ec1c664dfc8338c66fb1424140
+odm/etc/camera/CameraHWConfiguration.config:vendor/etc/overlayfs/ru/camera/CameraHWConfiguration.config|6164e3c0d967dc7de4c74a40b8ae407340587ea7
+odm/etc/camera/dualcal_golden.bin:vendor/etc/overlayfs/ru/camera/dualcal_golden.bin|64e0985730fb0a77835c48977bb2087f9727a075
+odm/etc/camera/fb_default:vendor/etc/overlayfs/ru/camera/fb_default|bf18dd637274f4676e47e0bc2328eb64a39c7389
+odm/etc/camera/fwk_config.json:vendor/etc/overlayfs/ru/camera/fwk_config.json|3cd65231a18a712b27e211acb6cd3abc446b6aaf
 
 # CVP firmware
 vendor/firmware/evass.b00
@@ -1153,17 +1153,17 @@ odm/etc/sensor/config/holi_qrd_bmi26x_0.json
 odm/etc/sensor/config/holi_qrd_mmc56x3x.json
 
 # Sensors (IN/EU)
-odm/etc/sensor/config/holi_bma4_0.json:odm/overlayfs/in/etc/sensor/config/holi_bma4_0.json
-odm/etc/sensor/config/holi_qrd_bma4_0.json:odm/overlayfs/in/etc/sensor/config/holi_qrd_bma4_0.json
-odm/etc/sensor/config/holi_qrd_sc7a20_0.json:odm/overlayfs/in/etc/sensor/config/holi_qrd_sc7a20_0.json
-odm/etc/sensor/config/holi_sc7a20_0.json:odm/overlayfs/in/etc/sensor/config/holi_sc7a20_0.json
-odm/etc/sensor/sensor_config.json:odm/overlayfs/in/etc/sensor/sensor_config.json
+odm/etc/sensor/config/holi_bma4_0.json:vendor/etc/overlayfs/in/sensor/config/holi_bma4_0.json
+odm/etc/sensor/config/holi_qrd_bma4_0.json:vendor/etc/overlayfs/in/sensor/config/holi_qrd_bma4_0.json
+odm/etc/sensor/config/holi_qrd_sc7a20_0.json:vendor/etc/overlayfs/in/sensor/config/holi_qrd_sc7a20_0.json
+odm/etc/sensor/config/holi_sc7a20_0.json:vendor/etc/overlayfs/in/sensor/config/holi_sc7a20_0.json
+odm/etc/sensor/sensor_config.json:vendor/etc/overlayfs/in/sensor/sensor_config.json
 
 # Sensors (CN) - from RMX3478_14.0.0.700(CN01)
-odm/etc/sensor/sensor_config.json:odm/overlayfs/cn/etc/sensor/sensor_config.json|58e549b54f34d4516e93ad290b0a48eda1b356ff
+odm/etc/sensor/sensor_config.json:vendor/etc/overlayfs/cn/sensor/sensor_config.json|58e549b54f34d4516e93ad290b0a48eda1b356ff
 
 # Sensors (RU) - from RMX3474_14.0.0.700(EX01)
-odm/etc/sensor/sensor_config.json:odm/overlayfs/ru/etc/sensor/sensor_config.json|391920cb6088c92c46576c6b46c8c54e679b1dc3
+odm/etc/sensor/sensor_config.json:vendor/etc/overlayfs/ru/sensor/sensor_config.json|391920cb6088c92c46576c6b46c8c54e679b1dc3
 
 # VPU
 vendor/firmware/vpu20_1v.b01
