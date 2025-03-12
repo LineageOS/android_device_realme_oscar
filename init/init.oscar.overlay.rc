@@ -5,21 +5,17 @@
 #
 
 on init && property:ro.product.product.model=RMX3471
-    mount overlay overlay /odm/etc ro lowerdir=/odm/overlayfs/in/etc:/odm/etc
-    mount overlay overlay /odm/lib64 ro lowerdir=/odm/overlayfs/in/lib64:/odm/lib64
-    mount overlay overlay /vendor/lib64 ro lowerdir=/vendor/overlayfs/in/lib64:vendor/lib64
+    mount overlay overlay /odm/etc/camera ro lowerdir=/vendor/etc/overlayfs/in/camera/:/odm/etc/camera
+    mount overlay overlay /odm/etc/sensors ro lowerdir=/vendor/etc/overlayfs/in/sensors/:/odm/etc/sensors
 
 on init && property:ro.product.product.model=RMX3472
-    mount overlay overlay /odm/etc ro lowerdir=/odm/overlayfs/in/etc:/odm/etc
-    mount overlay overlay /odm/lib64 ro lowerdir=/odm/overlayfs/in/lib64:/odm/lib64
-    mount overlay overlay /vendor/lib64 ro lowerdir=/vendor/overlayfs/in/lib64:vendor/lib64
+    mount overlay overlay /odm/etc/camera ro lowerdir=/vendor/etc/overlayfs/in/camera/:/odm/etc/camera
+    mount overlay overlay /odm/etc/sensors ro lowerdir=/vendor/etc/overlayfs/in/sensors/:/odm/etc/sensors
 
 on init && property:ro.product.product.model=RMX3474
-    mount overlay overlay /odm/etc ro lowerdir=/odm/overlayfs/ru/etc:/odm/etc
-    mount overlay overlay /odm/lib64 ro lowerdir=/odm/overlayfs/ru/lib64:/odm/lib64
-    mount overlay overlay /vendor/lib64 ro lowerdir=/vendor/overlayfs/ru/lib64:vendor/lib64
+    mount overlay overlay /odm/etc/camera ro lowerdir=/vendor/etc/overlayfs/ru/camera/:/odm/etc/camera
+    mount overlay overlay /odm/etc/sensors ro lowerdir=/vendor/etc/overlayfs/ru/sensors/:/odm/etc/sensors
 
 on init && property:ro.product.product.model=RMX3478
-    mount overlay overlay /odm/etc ro lowerdir=/odm/overlayfs/cn/etc:/odm/etc
-    mount overlay overlay /odm/lib64 ro lowerdir=/odm/overlayfs/cn/lib64:/odm/lib64
-    mount overlay overlay /vendor/lib64 ro lowerdir=/vendor/overlayfs/cn/lib64:vendor/lib64
+    mount overlay overlay /odm/etc/camera ro lowerdir=/vendor/etc/overlayfs/cn/camera/:/odm/etc/camera
+    mount overlay overlay /odm/etc/sensors ro lowerdir=/vendor/etc/overlayfs/cn/sensors/:/odm/etc/sensors
