@@ -35,6 +35,8 @@ PRODUCT_PACKAGES += \
     init.oplus.hw.rc.recovery \
     init.oscar.overlay.rc
 
+$(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_oscar)
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp \
