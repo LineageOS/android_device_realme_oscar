@@ -53,7 +53,15 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
-    OPlusSystemUIResTarget
+    OPlusSystemUIResTarget \
+    OscarCNSettingsProviderOverlay \
+    OscarCNWifiOverlay \
+    OscarEUSettingsProviderOverlay \
+    OscarEUWifiOverlay \
+    OscarINSettingsProviderOverlay \
+    OscarINWifiOverlay \
+    OscarRUSettingsProviderOverlay \
+    OscarRUWifiOverlay
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
