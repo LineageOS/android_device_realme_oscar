@@ -1,4 +1,4 @@
 runtime_resource_overlay {
     name: "OscarEUWifiOverlay",
-    vendor: true,
+    device_specific: true,
 }
