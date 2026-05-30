@@ -818,7 +818,6 @@ odm/lib64/libswscale.so
 odm/lib64/libsymphony-cpu.so
 odm/lib64/libwatermark_photo.so
 odm/lib64/libyuvwrapper.so
-odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
 vendor/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode
 vendor/etc/camera/M_Attribute_Gender_Age_1.0.model.hardcode
@@ -1003,7 +1002,6 @@ vendor/lib64/libsynx.so
 vendor/lib64/libtfestriping.so
 vendor/lib64/libthreadutils.so
 vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
-vendor/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 # Camera (IN/EU)
@@ -1096,7 +1094,6 @@ odm/lib64/libgf_hal_G6.so
 odm/lib64/libgf_hal_G7.so
 odm/lib64/libsl_fp_impl.so
 odm/lib64/libTeeClient.so
-odm/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
 
 # Fingerprint firmware
