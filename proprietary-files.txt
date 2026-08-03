@@ -1165,6 +1165,39 @@ odm/etc/sensor/sensor_config.json:vendor/etc/overlayfs/cn/sensor/sensor_config.j
 # Sensors (RU) - from RMX3474_14.0.0.700(EX01)
 odm/etc/sensor/sensor_config.json:vendor/etc/overlayfs/ru/sensor/sensor_config.json|391920cb6088c92c46576c6b46c8c54e679b1dc3
 
+# Touchscreen firmware
+odm/firmware/tp/2162B/FW_NF_ILI7807S_DSJM.img
+odm/firmware/tp/2162B/FW_NF_ILI7807S_DSJM_FAE.img
+odm/firmware/tp/2162B/LIMIT_NF_ILI7807S_DSJM.ini
+odm/firmware/tp/216EA/FW_NF_ILI7807S_TIANMA.img
+odm/firmware/tp/216EA/FW_NF_ILI7807S_TIANMA_FAE.img
+odm/firmware/tp/216EA/FW_NF_NT36672C_DSJM.img
+odm/firmware/tp/216EA/FW_NF_NT36672C_DSJM_FAE.img
+odm/firmware/tp/216EA/FW_NF_NT36672C_DSJM_TEST.bin
+odm/firmware/tp/216EA/FW_NF_NT36672C_TIANMA.img
+odm/firmware/tp/216EA/FW_NF_NT36672C_TIANMA_FAE.img
+odm/firmware/tp/216EA/FW_NF_NT36672C_TIANMA_TEST.bin
+odm/firmware/tp/216EA/LIMIT_NF_ILI7807S_TIANMA.img
+odm/firmware/tp/216EA/LIMIT_NF_NT36672C_DSJM.img
+odm/firmware/tp/216EA/LIMIT_NF_NT36672C_TIANMA.img
+odm/firmware/tp/21707/FW_NF_ILI7807S_DSJM.img
+odm/firmware/tp/21707/FW_NF_ILI7807S_DSJM_FAE.img
+odm/firmware/tp/21707/FW_NF_TD4377_DSJM.img
+odm/firmware/tp/21707/FW_NF_TD4377_DSJM_FAE.img
+odm/firmware/tp/21707/LIMIT_NF_ILI7807S_DSJM.img
+odm/firmware/tp/21707/LIMIT_NF_TD4377_DSJM.img
+odm/firmware/tp/21708/FW_NF_ILI7807S_TIANMA.img
+odm/firmware/tp/21708/FW_NF_ILI7807S_TIANMA_FAE.img
+odm/firmware/tp/21708/FW_NF_NT36672C_DSJM.img
+odm/firmware/tp/21708/FW_NF_NT36672C_DSJM_FAE.img
+odm/firmware/tp/21708/FW_NF_NT36672C_DSJM_TEST.bin
+odm/firmware/tp/21708/FW_NF_NT36672C_TIANMA.img
+odm/firmware/tp/21708/FW_NF_NT36672C_TIANMA_FAE.img
+odm/firmware/tp/21708/FW_NF_NT36672C_TIANMA_TEST.bin
+odm/firmware/tp/21708/LIMIT_NF_ILI7807S_TIANMA.img
+odm/firmware/tp/21708/LIMIT_NF_NT36672C_DSJM.img
+odm/firmware/tp/21708/LIMIT_NF_NT36672C_TIANMA.img
+
 # VPU
 vendor/firmware/vpu20_1v.b01
 vendor/firmware/vpu20_1v.b02
