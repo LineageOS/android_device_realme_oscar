@@ -48,11 +48,6 @@ void set_device_properties() {
             property_override("ro.product." + source + "model", "RMX3471");
         } else if (prjname == "21708") { // EU
             property_override("ro.product." + source + "model", "RMX3472");
-        } else if (prjname == "216EA") { // RU
-            property_override("ro.product." + source + "model", "RMX3474");
-        } else if (prjname == "2162B") { // CN
-            property_override("ro.product." + source + "device", "RE547D");
-            property_override("ro.product." + source + "model", "RMX3478");
         }
     }
 }

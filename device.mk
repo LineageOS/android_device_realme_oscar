@@ -32,10 +32,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Init
 PRODUCT_PACKAGES += \
-    init.device.rc \
-    init.oplus.hw.rc \
-    init.oplus.hw.rc.recovery \
-    init.oscar.overlay.rc
+    init.device.rc
 
 $(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_oscar)
 
@@ -57,15 +54,9 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
+    OPlusSettingsProviderResTarget \
     OPlusSystemUIResTarget \
-    OscarCNSettingsProviderOverlay \
-    OscarCNWifiOverlay \
-    OscarEUSettingsProviderOverlay \
-    OscarEUWifiOverlay \
-    OscarINSettingsProviderOverlay \
-    OscarINWifiOverlay \
-    OscarRUSettingsProviderOverlay \
-    OscarRUWifiOverlay
+    OPlusWifiOverlay
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

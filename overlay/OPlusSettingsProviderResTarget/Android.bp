@@ -1,4 +1,4 @@
 runtime_resource_overlay {
-    name: "OscarCNWifiOverlay",
+    name: "OPlusSettingsProviderResTarget",
     device_specific: true,
 }
