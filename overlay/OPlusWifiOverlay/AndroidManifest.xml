@@ -4,11 +4,9 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.android.wifi.resources.oscarin">
+          package="com.android.wifi.resources.oplus">
     <overlay android:targetPackage="com.android.wifi.resources"
              android:targetName="WifiCustomization"
              android:isStatic="true"
-             android:priority="850"
-             android:requiredSystemPropertyName="ro.boot.prjname"
-             android:requiredSystemPropertyValue="21707" />
+             android:priority="850" />
 </manifest>
